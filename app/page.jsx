@@ -78,7 +78,7 @@ export default function AinuPage() {
     <div className="min-h-[100vh] bg-gray-900 text-white relative">
       {/* Popup */}
       {showPopup && (
-        <div className="fixed inset-0 flex items-center justify-center z-50 bg-white bg-opacity-40 backdrop-blur-medium">
+        <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-40 backdrop-blur-medium">
           <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 max-w-sm w-full shadow-lg relative animate-fade-in">
             <button
               onClick={() => setShowPopup(false)}
