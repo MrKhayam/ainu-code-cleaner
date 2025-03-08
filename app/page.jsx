@@ -75,7 +75,7 @@ export default function AinuPage() {
   };
 
   return (
-    <div className="min-h-[100dvh] bg-gray-900 text-white relative">
+    <div className="max-h-[100dvh] bg-gray-900 text-white relative">
       {/* Popup */}
       {showPopup && (
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-white bg-opacity-40 backdrop-blur-medium">
